@@ -1,0 +1,80 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mentor Registration - IEEE IAS Sri Lanka Chapter</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700;800&family=Sora:wght@400;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body data-page="mentorship">
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="index.html"><img class="brand-logo" src="assets/images/Layer 0.png" alt="IEEE IAS Sri Lanka"></a>
+      <nav class="nav-links" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="event-detail.html">Events</a>
+        <a href="membership.html">Membership</a>
+        <a href="mentorship.html">Mentorship</a>
+        <a href="volunteers.html">Volunteers</a>
+      </nav>
+      <div class="nav-actions">
+        <a class="btn btn-primary" href="membership.html">Join IEEE IAS</a>
+        <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false" data-menu-toggle><span></span><span></span><span></span></button>
+      </div>
+    </div>
+  </header>
+  <div class="breadcrumb-bar">
+    <div class="container">
+      <nav class="breadcrumb" aria-label="Breadcrumb">
+        <a href="index.html">Home</a>
+        <span class="breadcrumb-separator" aria-hidden="true">/</span>
+        <a href="mentorship.html">Mentorship</a>
+        <span class="breadcrumb-separator" aria-hidden="true">/</span>
+        <span aria-current="page">Mentor Registration</span>
+      </nav>
+    </div>
+  </div>
+  <main>
+    <section class="hero">
+      <div class="container">
+        <span class="eyebrow">Mentor Registration</span>
+        <h1>Guide the next generation of engineers</h1>
+        <p class="lead">Join our network of industry professionals and academic experts supporting students across Sri Lanka.</p>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container split">
+        <aside class="panel"><h2>Registration Steps</h2><div class="progress-dots"><span data-form-dot></span><span data-form-dot></span><span data-form-dot></span></div><p>Complete personal details, professional expertise, and mentoring preferences. This demo form validates required fields and shows a success message.</p></aside>
+        <form class="panel form" data-mentor-form>
+          <div class="form-step active">
+            <h2>Section A: Personal Information</h2>
+            <div class="form-grid"><div class="field"><label>Full Name</label><input required placeholder="Dr. Kasun Perera"></div><div class="field"><label>Email Address</label><input type="email" required placeholder="kasun@example.com"></div></div>
+            <div class="form-grid"><div class="field"><label>Phone Number</label><input type="tel" required placeholder="+94 7X XXX XXXX"></div><div class="field"><label>LinkedIn Profile URL</label><input type="url" placeholder="https://linkedin.com/in/name"></div></div>
+            <button class="btn btn-primary" type="button" data-next-step>Continue</button>
+          </div>
+          <div class="form-step">
+            <h2>Section B: Professional Information</h2>
+            <div class="form-grid"><div class="field"><label>Organization</label><input required></div><div class="field"><label>Role / Title</label><input required></div></div>
+            <div class="field"><label>Expertise Areas</label><textarea required placeholder="Power systems, automation, research publishing..."></textarea></div>
+            <div class="section-actions"><button class="btn btn-secondary" type="button" data-prev-step>Back</button><button class="btn btn-primary" type="button" data-next-step>Continue</button></div>
+          </div>
+          <div class="form-step">
+            <h2>Section C: Preferences</h2>
+            <div class="form-grid"><div class="field"><label>Preferred Format</label><select required><option value="">Select format</option><option>Virtual</option><option>In-person</option><option>Both</option></select></div><div class="field"><label>Available Hours / Month</label><input type="number" min="1" required></div></div>
+            <div class="field"><label>Message for Mentees</label><textarea required></textarea></div>
+            <div class="section-actions"><button class="btn btn-secondary" type="button" data-prev-step>Back</button><button class="btn btn-primary" type="submit">Submit Registration</button></div>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer"><div class="container footer-grid"><div><a class="brand" href="index.html"><span class="brand-mark">IAS</span><span>IEEE IAS Sri Lanka</span></a><p>Empowering engineering professionals and students through knowledge sharing and innovation.</p></div><div><span class="footer-title">Quick Links</span><div class="footer-links"><a href="index.html">Home</a><a href="about.html">About</a><a href="events.html">Events</a><a href="membership.html">Membership</a><a href="mentorship.html">Mentorship</a><a href="volunteers.html">Volunteers</a><a href="news.html">News</a><a href="contact.html">Contact</a></div></div><div><span class="footer-title">Programs</span><div class="footer-links"><a href="mentor-registration.html">Mentor Registration</a><a href="news.html">News</a><a href="volunteers.html">Volunteers</a><a href="contact.html">Contact</a></div></div><div><span class="footer-title">Contact</span><div class="footer-links"><a href="mailto:info@ieeeias.lk">info@ieeeias.lk</a><span>Colombo, Sri Lanka</span></div></div></div><div class="container copyright">© 2026 IEEE IAS Sri Lanka Chapter. All Rights Reserved.</div></footer>
+  <div class="toast" data-toast></div><script src="assets/js/main.js"></script>
+</body>
+</html>
+
+

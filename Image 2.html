@@ -1,0 +1,269 @@
+
+                                "lineHeight": "1.6",
+                                "fontWeight": "400"
+                        }
+                ],
+                "h1": [
+                        "48px",
+                        {
+                                "lineHeight": "1.2",
+                                "letterSpacing": "-0.02em",
+                                "fontWeight": "800"
+                        }
+                ],
+                "label-sm": [
+                        "14px",
+                        {
+                                "lineHeight": "1.4",
+                                "letterSpacing": "0.05em",
+                                "fontWeight": "500"
+                        }
+                ],
+                "h2": [
+                        "36px",
+                        {
+                                "lineHeight": "1.2",
+                                "letterSpacing": "-0.01em",
+                                "fontWeight": "700"
+                        }
+                ],
+                "h3": [
+                        "24px",
+                        {
+                                "lineHeight": "1.3",
+                                "fontWeight": "700"
+                        }
+                ],
+                "body-lg": [
+                        "18px",
+                        {
+                                "lineHeight": "1.6",
+                                "fontWeight": "500"
+                        }
+                ]
+        }
+},
+    },
+  }
+</script>
+<style>
+  body {
+    background-color: #0b1511; /* fallback to surface */
+    background-image: radial-gradient(circle at top right, rgba(63, 229, 108, 0.05) 0%, transparent 40%),
+                      radial-gradient(circle at bottom left, rgba(63, 229, 108, 0.05) 0%, transparent 40%);
+  }
+  .pattern-circuit {
+    background-image: linear-gradient(30deg, #131e19 12%, transparent 12.5%, transparent 87%, #131e19 87.5%, #131e19), linear-gradient(150deg, #131e19 12%, transparent 12.5%, transparent 87%, #131e19 87.5%, #131e19), linear-gradient(30deg, #131e19 12%, transparent 12.5%, transparent 87%, #131e19 87.5%, #131e19), linear-gradient(150deg, #131e19 12%, transparent 12.5%, transparent 87%, #131e19 87.5%, #131e19), linear-gradient(60deg, #131e1977 25%, transparent 25.5%, transparent 75%, #131e1977 75%, #131e1977), linear-gradient(60deg, #131e1977 25%, transparent 25.5%, transparent 75%, #131e1977 75%, #131e1977);
+    background-size: 40px 70px;
+    background-position: 0 0, 0 0, 20px 35px, 20px 35px, 0 0, 20px 35px;
+    opacity: 0.3;
+  }
+  .divider-glow {
+    background: linear-gradient(90deg, transparent, rgba(63, 229, 108, 0.5), transparent);
+    height: 1px;
+    width: 100%;
+  }
+</style>
+</head>
+<body class="bg-background text-on-background font-body-md text-body-md overflow-x-hidden">
+<!-- TopNavBar -->
+<nav class="fixed top-0 w-full z-50 bg-surface/80 backdrop-blur-md border-b border-outline-variant/30 hidden md:block">
+<div class="flex justify-between items-center px-margin py-md w-full max-w-7xl mx-auto">
+<div class="font-h3 text-h3 font-extrabold text-primary tracking-tight">IEEE IAS Sri Lanka</div>
+<div class="flex space-x-lg items-center">
+<a class="text-primary font-bold border-b-2 border-primary pb-1" href="#">Home</a>
+<a class="text-on-surface-variant hover:text-primary transition-colors duration-200" href="#">About</a>
+<a class="text-on-surface-variant hover:text-primary transition-colors duration-200" href="#">Events</a>
+<a class="text-on-surface-variant hover:text-primary transition-colors duration-200" href="#">Membership</a>
+<a class="text-on-surface-variant hover:text-primary transition-colors duration-200" href="#">Mentorship</a>
+<a class="text-on-surface-variant hover:text-primary transition-colors duration-200" href="#">Volunteers</a>
+<button class="bg-primary-container text-on-primary-container px-lg py-sm rounded-lg font-label-sm text-label-sm hover:opacity-90 transition-opacity">Join IEEE IAS</button>
+</div>
+</div>
+</nav>
+<!-- Main Content Canvas -->
+<main class="pt-24 md:pt-32 w-full max-w-7xl mx-auto px-md md:px-margin flex flex-col gap-xl">
+<!-- Hero Section -->
+<section class="relative w-full rounded-xl overflow-hidden min-h-[614px] flex flex-col justify-center bg-surface-container border border-outline-variant/20 p-xl relative z-10 group hover:-translate-y-1 transition-transform duration-300">
+<div class="absolute inset-0 pattern-circuit z-0 pointer-events-none mix-blend-overlay"></div>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container via-surface-container/90 to-transparent z-0"></div>
+<div class="relative z-10 max-w-3xl flex flex-col gap-lg">
+<h1 class="font-h1 text-h1 text-on-surface">Bridging Industry &amp; Innovation in Sri Lanka</h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant">Advancing electrical and electronic engineering theory and practice. We connect academic research with industrial application, fostering the next generation of engineers through mentorship, technical events, and a vibrant community across Sri Lankan universities.</p>
+<div class="flex flex-wrap gap-md mt-md">
+<button class="bg-primary-container text-on-primary-container px-lg py-md rounded-lg font-label-sm text-label-sm hover:opacity-90 transition-opacity">Explore Events</button>
+<button class="border border-primary text-primary px-lg py-md rounded-lg font-label-sm text-label-sm hover:bg-primary/10 transition-colors">Join the Chapter</button>
+</div>
+<!-- Stats Strip -->
+<div class="grid grid-cols-2 md:grid-cols-4 gap-md mt-xl pt-lg border-t border-outline-variant/30">
+<div class="flex flex-col gap-xs">
+<span class="font-h2 text-h2 text-primary">28+</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Events Hosted</span>
+</div>
+<div class="flex flex-col gap-xs">
+<span class="font-h2 text-h2 text-primary">500+</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Active Members</span>
+</div>
+<div class="flex flex-col gap-xs">
+<span class="font-h2 text-h2 text-primary">10</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Universities</span>
+</div>
+<div class="flex flex-col gap-xs">
+<span class="font-h2 text-h2 text-primary">10+</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Years Active</span>
+</div>
+</div>
+</div>
+</section>
+<div class="divider-glow my-lg"></div>
+<!-- Featured Events -->
+<section class="flex flex-col gap-lg w-full">
+<div class="flex justify-between items-end">
+<h2 class="font-h2 text-h2 text-on-surface">Featured Events</h2>
+<a class="text-primary hover:text-primary-fixed transition-colors flex items-center gap-xs font-label-sm text-label-sm" href="#">View All <span class="material-symbols-outlined text-[18px]">arrow_forward</span></a>
+</div>
+<div class="flex overflow-x-auto gap-gutter pb-md snap-x">
+<!-- Event Card 1 -->
+<div class="min-w-[300px] md:min-w-[400px] bg-surface-container rounded-xl overflow-hidden group hover:-translate-y-1 hover:shadow-[0_0_15px_rgba(63,229,108,0.2)] transition-all duration-300 snap-start shrink-0 flex flex-col">
+<div class="h-48 bg-surface-variant relative overflow-hidden" data-alt="A professional engineering conference hall in Sri Lanka with attendees listening to a keynote speaker on stage. The setting is modern and dimly lit with spotlights on the speaker. The mood is focused and academic. The visual style follows a high-tech corporate aesthetic with subtle deep green hues and bright crisp lighting on the presenter.">
+<img alt="Event" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBxAPmxBFDtvR4c4RNJ0ZZafgk-6NEDItUBcnms8VzPSsAdBxjlAvRee6-pY2cMySfjKqtktMN0Si8PBLLKnZFPhpv9zSuvCLV-uBk96aOOqdC05Occu2V0JnM5DbmaUMnVExTCdOpxVjzUeTyBNd3COYPdoMgSaZ5F7brtYUHlmnHI37USnSul_Ksa_Us-AUGg2xDTOjD9OK3x8lyqUCDTkujwFI1GzqRbBXWNSfT6CcU0Sl8EjFANpvSHt25cbwtOuuqmxF1QQ_8"/>
+<div class="absolute top-md left-md bg-primary-container text-on-primary-container px-sm py-xs rounded font-label-sm text-[12px] uppercase font-bold">Upcoming</div>
+</div>
+<div class="p-lg flex flex-col gap-md flex-grow">
+<div class="flex items-center gap-sm text-primary font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[18px]">calendar_today</span>
+<span>Oct 25, 2024</span>
+</div>
+<h3 class="font-h3 text-h3 text-on-surface group-hover:text-primary transition-colors">Industrial Automation Summit</h3>
+<div class="flex items-center gap-sm text-on-surface-variant font-code text-code mt-auto">
+<span class="material-symbols-outlined text-[18px]">location_on</span>
+<span>BMICH, Colombo</span>
+</div>
+</div>
+</div>
+<!-- Event Card 2 -->
+<div class="min-w-[300px] md:min-w-[400px] bg-surface-container rounded-xl overflow-hidden group hover:-translate-y-1 hover:shadow-[0_0_15px_rgba(63,229,108,0.2)] transition-all duration-300 snap-start shrink-0 flex flex-col">
+<div class="h-48 bg-surface-variant relative overflow-hidden" data-alt="A hands-on robotics workshop with university students working on small autonomous vehicles on a long table. The room is a laboratory setting with bright overhead fluorescent lights. The mood is collaborative and analytical. The visual style is crisp and detailed, emphasizing the intricate electronics and the deep green branding elements in the background.">
+<img alt="Event" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC2wc7dEZ5UBoHqPC9r4INg-Qd0A5Ym4KZ5i64nfqckzhEmMkUwlbVjwWzeSNVPxEov4fhtsRgFJecQGqmCfg58Wr6ShDzPRhFMYXCpUOeAgMaL4KCQ5u6JuS-J6lis8OLmoa4LR9OSC4eCPSRPNbQY-lJ2AhF4xsKkXTs1yZ24Ognxk_WBMEusySsyggUoAVaVLdieKQ0WvQBXeH1TgLK-Rgv9b9qoSH5Gk2lTG1gUC2fRzte_hMVqiqL-6l8iYW5IJ05kVReBSiQ"/>
+<div class="absolute top-md left-md bg-outline text-surface-container-lowest px-sm py-xs rounded font-label-sm text-[12px] uppercase font-bold">Past</div>
+</div>
+<div class="p-lg flex flex-col gap-md flex-grow">
+<div class="flex items-center gap-sm text-outline font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[18px]">calendar_today</span>
+<span>Sep 12, 2024</span>
+</div>
+<h3 class="font-h3 text-h3 text-on-surface group-hover:text-primary transition-colors">Robotics &amp; AI Masterclass</h3>
+<div class="flex items-center gap-sm text-on-surface-variant font-code text-code mt-auto">
+<span class="material-symbols-outlined text-[18px]">location_on</span>
+<span>University of Moratuwa</span>
+</div>
+</div>
+</div>
+<!-- Event Card 3 -->
+<div class="min-w-[300px] md:min-w-[400px] bg-surface-container rounded-xl overflow-hidden group hover:-translate-y-1 hover:shadow-[0_0_15px_rgba(63,229,108,0.2)] transition-all duration-300 snap-start shrink-0 flex flex-col">
+<div class="h-48 bg-surface-variant relative overflow-hidden" data-alt="A large factory floor visit showing a group of engineering students wearing hard hats and safety vests looking at heavy industrial machinery. The setting is industrial and vast, with metallic textures and natural light from high windows. The mood is educational and awe-inspiring. The visual style incorporates high contrast and industrial rawness with subtle deep green accents.">
+<img alt="Event" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDo7i7RzAj-VjodsEVpvcclulaLmtVnndurbtYTOv7R0uurhrt9jnkoKQPgBjMYKFXNXhNg-EkWgg5NAGl_0N9EgkADxcD2jMSwMG50AiFHQcLdqk_WnsJG1hJDLk2BY6BdJWWyxmUEbwFovt4vLg59Hg5NEpSNxf5rqwPpT2Ae3xv1gDAFXAEaEBVdgkxiJTi1wVANvSOSQQPftsjhzObECUFDum5HlYecuCYRsmc9atopLkniJ4z1Z17Ry6LYSb9Sm4Kxsxlgg64"/>
+<div class="absolute top-md left-md bg-tertiary text-on-tertiary-container px-sm py-xs rounded font-label-sm text-[12px] uppercase font-bold">Featured</div>
+</div>
+<div class="p-lg flex flex-col gap-md flex-grow">
+<div class="flex items-center gap-sm text-tertiary font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[18px]">calendar_today</span>
+<span>Nov 05, 2024</span>
+</div>
+<h3 class="font-h3 text-h3 text-on-surface group-hover:text-primary transition-colors">Factory Focus: Power Systems</h3>
+<div class="flex items-center gap-sm text-on-surface-variant font-code text-code mt-auto">
+<span class="material-symbols-outlined text-[18px]">location_on</span>
+<span>LTL Transformers, Colombo</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Key Initiatives Bento Grid -->
+<section class="flex flex-col gap-lg w-full py-xl">
+<h2 class="font-h2 text-h2 text-on-surface text-center mb-md">Key Initiatives</h2>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-gutter">
+<!-- Item 1 -->
+<div class="bg-surface-container p-lg rounded-xl border border-outline-variant/10 hover:border-primary/50 transition-colors group">
+<div class="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center text-primary mb-md group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined">group</span>
+</div>
+<h3 class="font-h3 text-h3 text-on-surface mb-xs">Mentorship</h3>
+<p class="text-on-surface-variant font-code text-code">Connecting students with industry professionals for career guidance.</p>
+</div>
+<!-- Item 2 -->
+<div class="bg-surface-container p-lg rounded-xl border border-outline-variant/10 hover:border-primary/50 transition-colors group">
+<div class="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center text-primary mb-md group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined">factory</span>
+</div>
+<h3 class="font-h3 text-h3 text-on-surface mb-xs">Factory Focus</h3>
+<p class="text-on-surface-variant font-code text-code">Organizing industrial visits to bridge the gap between theory and practice.</p>
+</div>
+<!-- Item 3 -->
+<div class="bg-surface-container p-lg rounded-xl border border-outline-variant/10 hover:border-primary/50 transition-colors group">
+<div class="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center text-primary mb-md group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined">record_voice_over</span>
+</div>
+<h3 class="font-h3 text-h3 text-on-surface mb-xs">Tech Talks</h3>
+<p class="text-on-surface-variant font-code text-code">Expert-led sessions on the latest advancements in electrical engineering.</p>
+</div>
+<!-- Item 4 -->
+<div class="bg-surface-container p-lg rounded-xl border border-outline-variant/10 hover:border-primary/50 transition-colors group">
+<div class="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center text-primary mb-md group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined">smart_toy</span>
+</div>
+<h3 class="font-h3 text-h3 text-on-surface mb-xs">Robotics Challenge</h3>
+<p class="text-on-surface-variant font-code text-code">Annual competition fostering innovation in automation and robotics.</p>
+</div>
+<!-- Item 5 -->
+<div class="bg-surface-container p-lg rounded-xl border border-outline-variant/10 hover:border-primary/50 transition-colors group">
+<div class="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center text-primary mb-md group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined">school</span>
+</div>
+<h3 class="font-h3 text-h3 text-on-surface mb-xs">Student Chapters</h3>
+<p class="text-on-surface-variant font-code text-code">Supporting and expanding the network of university branch chapters.</p>
+</div>
+<!-- Item 6 -->
+<div class="bg-surface-container p-lg rounded-xl border border-outline-variant/10 hover:border-primary/50 transition-colors group">
+<div class="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center text-primary mb-md group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined">volunteer_activism</span>
+</div>
+<h3 class="font-h3 text-h3 text-on-surface mb-xs">Humanitarian Projects</h3>
+<p class="text-on-surface-variant font-code text-code">Applying engineering solutions to benefit local communities in need.</p>
+</div>
+</div>
+</section>
+<!-- Footer -->
+<footer class="bg-surface-container w-full py-xl px-margin border-t border-outline-variant/20 mt-xl">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-lg w-full max-w-7xl mx-auto">
+<div class="flex flex-col gap-md">
+<span class="font-h3 text-h3 font-bold text-primary">IEEE IAS Sri Lanka</span>
+<p class="font-body-md text-body-md text-on-surface-variant text-sm">Advancing the theory and practice of electrical and electronic engineering in the development, design, manufacture and application of electrical systems.</p>
+</div>
+<div class="flex flex-col gap-sm">
+<span class="font-label-sm text-label-sm font-bold text-on-surface mb-xs uppercase tracking-wider">Quick Links</span>
+<a class="text-on-surface-variant hover:text-primary transition-colors font-body-md text-sm" href="#">Home</a>
+<a class="text-on-surface-variant hover:text-primary transition-colors font-body-md text-sm" href="#">About</a>
+<a class="text-on-surface-variant hover:text-primary transition-colors font-body-md text-sm" href="#">Events</a>
+<a class="text-on-surface-variant hover:text-primary transition-colors font-body-md text-sm" href="#">Membership</a>
+</div>
+<div class="flex flex-col gap-sm">
+<span class="font-label-sm text-label-sm font-bold text-on-surface mb-xs uppercase tracking-wider">Contact Details</span>
+<span class="text-on-surface-variant font-body-md text-sm">info@ieeeias-sl.org</span>
+<span class="text-on-surface-variant font-body-md text-sm">Colombo, Sri Lanka</span>
+</div>
+<div class="flex flex-col gap-sm">
+<span class="font-label-sm text-label-sm font-bold text-on-surface mb-xs uppercase tracking-wider">Newsletter</span>
+<p class="text-on-surface-variant font-body-md text-sm mb-xs">Subscribe for updates on events and opportunities.</p>
+<div class="flex gap-xs">
+<input class="bg-surface border border-outline-variant rounded-md px-sm py-xs text-on-surface text-sm w-full focus:border-primary focus:ring-1 focus:ring-primary outline-none" placeholder="Email address" type="email"/>
+<button class="bg-primary text-on-primary px-sm py-xs rounded-md text-sm font-bold hover:opacity-90">Subscribe</button>
+</div>
+</div>
+</div>
+<div class="w-full max-w-7xl mx-auto mt-lg pt-md border-t border-outline-variant/10 text-center">
+<span class="text-on-surface-variant font-code text-[12px]">© 2024 IEEE IAS Sri Lanka Chapter. All Rights Reserved.</span>
+</div>
+</footer>
+</main>
+</body></html>

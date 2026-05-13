@@ -223,40 +223,101 @@
 
 @media (max-width: 680px) {
 	.membership-hero {
-		padding-top: 20px;
-		padding-bottom: 58px;
-	}
+    padding-top: 16px;
+    padding-bottom: 42px;
+  }
 
-	.membership-hero .hero-actions {
-		flex-direction: column;
-		align-items: center;
-	}
+  .membership-hero h1 {
+    font-size: clamp(1.8rem, 5.5vw, 3rem);
+  }
 
-	.membership-hero .btn {
-		width: 100%;
-		max-width: 280px;
-	}
+  .membership-hero .lead {
+    font-size: clamp(0.95rem, 2vw, 1.1rem);
+  }
 
-	.membership-benefits-grid,
-	.join-flow-grid {
-		grid-template-columns: 1fr;
-	}
+  .membership-hero .hero-actions {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
 
-	.membership-benefit-card-wide {
-		grid-column: auto;
-	}
+  .membership-hero .btn {
+    width: 100%;
+    max-width: 280px;
+    min-height: 44px;
+  }
 
-	.join-flow-line {
-		display: none;
-	}
+  .membership-benefits-section {
+    padding-top: 36px;
+    padding-bottom: 42px;
+  }
 
-	.join-step-number {
-		width: 70px;
-		height: 70px;
-		font-size: 1.8rem;
-	}
+  .membership-benefits-grid,
+  .join-flow-grid {
+    grid-template-columns: 1fr;
+  }
 
-	.membership-strip-box {
-		padding: 46px 18px;
-	}
+  .membership-benefit-card {
+    padding: 16px 14px;
+  }
+
+  .membership-benefit-card h3 {
+    font-size: clamp(1.2rem, 4vw, 1.6rem);
+  }
+
+  .membership-benefit-card-wide {
+    grid-column: auto;
+  }
+
+  .join-flow-section {
+    padding-top: 40px;
+    padding-bottom: 36px;
+  }
+
+  .join-flow-line {
+    display: none;
+  }
+
+  .join-step-number {
+    width: 64px;
+    height: 64px;
+    font-size: 1.6rem;
+  }
+
+  .join-step h3 {
+    font-size: clamp(1.1rem, 3.5vw, 1.5rem);
+  }
+
+  .membership-strip-box {
+    padding: 36px 16px;
+  }
 }
+
+@media (max-width: 420px) {
+  .membership-hero {
+    padding-bottom: 32px;
+  }
+
+  .membership-benefits-grid {
+    gap: 12px;
+  }
+
+  .membership-benefit-card {
+    padding: 14px 12px;
+  }
+
+  .join-flow-grid {
+    gap: 12px;
+  }
+
+  .join-step-number {
+    width: 56px;
+    height: 56px;
+    font-size: 1.4rem;
+  }
+
+  .join-flow-action .btn {
+    width: 100%;
+  }
+}
+

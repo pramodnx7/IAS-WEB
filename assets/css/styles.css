@@ -1710,7 +1710,7 @@ p {
   }
 
   .section {
-    padding: 50px 0;
+    padding: 40px 0;
   }
 
   .section-header {
@@ -1759,6 +1759,63 @@ p {
     right: 10px;
     bottom: 10px;
     padding: 12px 10px;
+  }
+
+  .btn {
+    min-height: 44px;
+    padding: 12px 16px;
+    font-size: 0.95rem;
+  }
+
+  h1 {
+    font-size: clamp(1.75rem, 5vw, 2.8rem) !important;
+  }
+
+  h2 {
+    font-size: clamp(1.4rem, 3.5vw, 2rem) !important;
+  }
+
+  h3 {
+    font-size: clamp(1.15rem, 3vw, 1.5rem) !important;
+  }
+}
+
+@media (max-width: 420px) {
+  .container {
+    width: min(100% - 20px, var(--container));
+  }
+
+  .section {
+    padding: 28px 0;
+  }
+
+  h1 {
+    font-size: clamp(1.5rem, 6vw, 2.2rem) !important;
+  }
+
+  h2 {
+    font-size: clamp(1.2rem, 4vw, 1.6rem) !important;
+  }
+
+  h3 {
+    font-size: clamp(1rem, 3.5vw, 1.3rem) !important;
+  }
+
+  p {
+    font-size: 0.95rem !important;
+  }
+
+  .btn {
+    min-height: 44px;
+    padding: 12px 14px;
+    width: 100% !important;
+    max-width: none !important;
+    font-size: 0.9rem;
+  }
+
+  .hero-actions {
+    flex-direction: column;
+    gap: 12px !important;
   }
 }
 

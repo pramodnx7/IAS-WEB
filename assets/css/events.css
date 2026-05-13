@@ -139,23 +139,56 @@
 
 @media (max-width: 680px) {
 	.events-hero-feature {
-		min-height: 310px;
-	}
+    min-height: 290px;
+  }
 
-	.events-hero-content {
-		padding: 24px 18px 22px;
-	}
+  .events-hero-content {
+    padding: 20px 16px 18px;
+  }
 
-	.events-hero .breadcrumb {
-		gap: 8px;
-		font-size: 0.88rem;
-	}
+  .events-hero .breadcrumb {
+    gap: 6px;
+    font-size: 0.82rem;
+  }
 
-	.events-hero .lead {
-		font-size: 1rem;
-	}
+  .events-hero h1 {
+    font-size: clamp(1.5rem, 5.5vw, 2.5rem);
+  }
 
-	.events-filter-actions {
-		margin-top: 16px;
-	}
+  .events-hero .lead {
+    font-size: 0.95rem;
+  }
+
+  .events-filter-actions {
+    margin-top: 14px;
+    flex-wrap: wrap;
+  }
+
+  .events-filter-actions .btn {
+    flex: 1;
+    min-width: 100px;
+  }
 }
+
+@media (max-width: 420px) {
+  .events-hero {
+    padding-top: 16px;
+    padding-bottom: 12px;
+  }
+
+  .events-hero-feature {
+    min-height: 260px;
+  }
+
+  .events-hero-content {
+    padding: 16px 12px 14px;
+  }
+
+  .events-hero .breadcrumb {
+    flex-wrap: wrap;
+    font-size: 0.75rem;
+  }
+
+  .events-hero-tags .badge {
+    padding: 4px 10px;
+    font-size: 0.8rem;

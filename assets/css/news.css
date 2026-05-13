@@ -313,23 +313,95 @@
 
 @media (max-width: 680px) {
 	.news-hero {
-		padding-top: 24px;
-		padding-bottom: 20px;
-	}
+    padding-top: 18px;
+    padding-bottom: 16px;
+  }
 
-	.news-featured-card {
-		padding: 18px;
-	}
+  .news-hero h1 {
+    font-size: clamp(1.6rem, 5.5vw, 2.8rem);
+  }
 
-	.news-research-grid {
-		grid-template-columns: 1fr;
-	}
+  .news-featured-card {
+    padding: 14px;
+    gap: 14px;
+  }
 
-	.news-update-item {
-		grid-template-columns: 1fr;
-	}
+  .featured-cover {
+    min-height: 200px;
+  }
 
-	.news-update-thumb {
-		min-height: 130px;
-	}
+  .featured-content h2 {
+    font-size: clamp(1.4rem, 4vw, 2.2rem);
+  }
+
+  .news-title-row h2 {
+    font-size: clamp(1.3rem, 3.5vw, 1.8rem);
+  }
+
+  .news-research-grid {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  .news-research-card {
+    padding: 16px 14px 12px;
+  }
+
+  .news-updates-layout {
+    gap: 16px;
+  }
+
+  .news-update-item {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  .news-update-thumb {
+    min-height: 110px;
+  }
+
+  .news-update-item h3 {
+    font-size: clamp(1.1rem, 3.5vw, 1.6rem);
+  }
+
+  .congress-item h3 {
+    font-size: 1.3rem;
+  }
 }
+
+@media (max-width: 420px) {
+  .news-hero {
+    padding-top: 14px;
+    padding-bottom: 12px;
+  }
+
+  .news-featured-card {
+    padding: 12px;
+  }
+
+  .featured-cover {
+    min-height: 150px;
+  }
+
+  .featured-cover::before {
+    font-size: 0.75rem;
+  }
+
+  .featured-content .badge {
+    margin-bottom: 8px;
+  }
+
+  .news-research-card {
+    padding: 12px 10px;
+  }
+
+  .news-research-card h3 {
+    font-size: 1.1rem;
+  }
+
+  .news-update-item {
+    gap: 8px;
+  }
+
+  .news-congress-panel {
+    padding: 12px;
